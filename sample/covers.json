@@ -1,0 +1,14 @@
+{
+  "budget": 1,
+  "capacity": 4,
+  "range_error_code": "E_BAD_RANGE",
+  "runs_error_code": "E_TOO_MANY_RUNS",
+  "event_error_code": "E_BAD_EVENT",
+  "state": { "runs": [], "ledger": [], "applied": [] },
+  "events": [
+    { "id": 1, "kind": "set", "from": 1, "to": 3, "value": "a" },
+    { "id": 2, "kind": "set", "from": 2, "to": 5, "value": "b" },
+    { "id": 3, "kind": "set", "from": 6, "to": 7, "value": "b" },
+    { "id": 4, "kind": "set", "from": 9, "to": 10, "value": "c" }
+  ]
+}
